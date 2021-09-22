@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <title>notes-app</title>
+</head>
+<link rel="stylesheet" href="style/magic-notes.css">
+
+<body>
+    <!-- logo -->
+    <div id="logo">
+        <h1>Pankaj</h1>
+        <img src="download.png" alt="" style="height: 20vh ;">
+        <h1>Sahu</h1>
+    </div>
+    <!-- navbar -->
+    <div class="navbar-container">
+        <div class="navbar-left">
+            <li class="directors"><a href="#navbar-container">Home</a></li>
+            <li class="directors"><a href="https://www.instagram.com/_pankaj._.sahu_/">instagram</a></li>
+            <li class="directors"><a href="https://www.linkedin.com/in/pankaj-sahu-49514a214/">linked in</a></li>
+            <li class="directors"><a href="https://github.com/pankajsahu19056">github</a></li>
+        </div>
+        <div class="navbar-right">
+            <input type="text" id="searchTxt">
+            <button>search</button>
+        </div>
+    </div>
+
+
+
+    <!-- body input  -->
+    <div class="inputContainer">
+        <h1>Lets type some notes </h1>
+        <textarea name="text-area" id="" cols="80" rows="20"></textarea>
+        <button type="submit" style="background-color:rgba(201, 47, 193, 0.335); border-radius: 10%; color: rgba(0, 0, 0, 0.856);">click to add new note</button>
+    </div>
+
+
+    <!-- body history cards -->
+    <div id="history-cards">
+        <hr>
+        <h1>*Notes _ List *</h1>
+        <div id="cards"></div>
+    </div>
+    <!-- footer  -->
+
+</body>
+<script src="javascript/magic-notes.js"></script>
+
+</html>

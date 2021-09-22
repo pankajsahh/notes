@@ -1,0 +1,126 @@
+body{
+    margin: 0 ;
+    background-color: rgb(250, 235, 215);
+    font-size: larger;
+}
+/* logo */
+#logo{
+    display: flex;
+    font-family: 'Style Script', cursive;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(244, 164, 96);
+
+}
+#logo img{
+ border-radius: 20%;
+}
+#logo h1{
+    font-size: 50px;
+}
+/* navbar  */
+
+.navbar-container{
+    background: rgb(238, 232, 170);
+    height: 8vh;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-right{
+    float: right;
+    padding-top: 2px;
+    margin-top: 2px;
+    
+}
+.navbar-right button{
+    color: rgb(21, 133, 133);
+    border-radius: 20%;
+    margin-right: 50px;
+}
+.navbar-right input{
+
+}
+.navbar-left{
+    width: 69%;
+    
+}
+.directors{
+    display: inline-block;
+    margin: 6px 10px;
+}
+.directors a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* body content input */
+.inputContainer{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  
+    height: 60vh;
+}
+.inputContainer button{
+    margin: 10px 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#history-cards{
+    margin: 0 10%;
+}
+/* body history cards */
+/* card=class */
+.cards-preview{
+    background-color: rgb(245, 245, 220);
+    display: inline-block;
+    width: 200px;
+    border: 0.5px solid rgb(240, 235, 235);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgb(226, 146, 146);
+}
+/* card=container */
+#cards{
+    align-items: center;
+}
+/*when search box input given*/
+.hideall{
+    display: none;
+}
+@media screen and (max-width: 425px) {
+    
+.navbar-container{
+    background: rgb(243, 204, 140);
+    height: 20vh;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar-right{
+    /* float: right; */
+    padding-top: 2px;
+    margin-top: 12px;
+    margin-left: 30px;
+    
+}
+.navbar-left{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+/* input container fixes */
+.inputContainer h1{
+    text-align: center;
+}
+.inputContainer textarea{
+    width: 95%;
+}
+  }
