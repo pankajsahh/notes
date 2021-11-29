@@ -29,7 +29,7 @@ function showNotes() {
         notesObj.forEach((a, index) => {
             html += `<div class="cards-preview ${index} ">
                        <p>${a}</p>
-                       <button id="${index}}" onclick="deleteButton(this.id)">delete</button>
+                       <button id="${index}" onclick="deleteButton(this.id)">delete</button>
                      </div>
                     `;
         });
